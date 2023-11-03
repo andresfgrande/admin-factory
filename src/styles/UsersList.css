@@ -1,0 +1,13 @@
+.users-list, .tokens-minted-list, .trusted-relayers-list{
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .transaction-section{
+    overflow: auto;
+  }
+  .transactions-subtitle{
+    margin-bottom: 0;
+  }

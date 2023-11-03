@@ -1,0 +1,55 @@
+.App{
+  position: sticky;
+  top: 0;
+}
+
+  .header {
+    background-color: #d5e1ea; 
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10); 
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    justify-content: end;
+    gap: 20px;
+  }
+  
+  .header-title {
+    color: #333; 
+    font-size: 1.5rem;
+    font-weight: 600; 
+  }
+  
+  .connect-button {
+    padding: 8px 25px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #4a90e2; 
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Poppins';
+  }
+  
+  .connect-button:hover {
+    background-color: #3a7bd5; 
+  }
+  
+
+  @media (max-width: 768px) {
+    .header {
+      justify-content: end;
+    }
+  
+  
+  }
+  
+  .balance{
+    font-weight: 700;
+    font-size: 1.1rem;
+  }

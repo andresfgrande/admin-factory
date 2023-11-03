@@ -1,0 +1,54 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  thead tr {
+    background-color: #3a7bd5;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: center;
+  }
+  
+  tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  /* Zebra striping for rows */
+  tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  /* Hover effect for rows */
+  tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 600px) {
+    table {
+      display: block;
+      overflow-x: auto;
+    }
+  }
+  
+  .commerce-list{
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .copy-address-row{
+    cursor: pointer;
+  }
+  .copy-address-row:hover{
+    font-weight: bold;
+  }
